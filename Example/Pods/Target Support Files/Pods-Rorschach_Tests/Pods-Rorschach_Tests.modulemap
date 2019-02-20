@@ -1,0 +1,6 @@
+framework module Pods_Rorschach_Tests {
+  umbrella header "Pods-Rorschach_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

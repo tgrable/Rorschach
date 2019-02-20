@@ -44,9 +44,9 @@
 		7FC5629064DA97123EBFF127 /* Pods_Rorschach_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rorschach_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA986BF522C4A4BDF665EB8 /* Pods-Rorschach_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rorschach_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Rorschach_Tests/Pods-Rorschach_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA64AEC9CCAC4CF1564EB3B9 /* Pods-Rorschach_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rorschach_Tests.release.xcconfig"; path = "Target Support Files/Pods-Rorschach_Tests/Pods-Rorschach_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B9B08DF8B876EC1540510FBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B9C9C6B64DA6DBCA883701FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C9C9E1CFC2DF26EC398686BA /* Rorschach.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Rorschach.podspec; path = ../Rorschach.podspec; sourceTree = "<group>"; };
+		B9B08DF8B876EC1540510FBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B9C9C6B64DA6DBCA883701FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C9C9E1CFC2DF26EC398686BA /* Rorschach.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Rorschach.podspec; path = ../Rorschach.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				9DA986BF522C4A4BDF665EB8 /* Pods-Rorschach_Tests.debug.xcconfig */,
 				AA64AEC9CCAC4CF1564EB3B9 /* Pods-Rorschach_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

@@ -1,0 +1,6 @@
+framework module Rorschach {
+  umbrella header "Rorschach-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051EFDBF1DCB6BCFAE9A15E86736AAE8 /* Pods-Rorschach_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4208BD5FE953866B7D0E037CC71F46E7 /* Pods-Rorschach_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10C104AE7ADA84238670B20CF2A7F288 /* Rorschach-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D8CFE19D552A459A690CB7CEF3C577B /* Rorschach-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CDDBC4CFECA9B82301F6AC73A01AC84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		5FDB00E94856413528F0B2B9EF0BC2A2 /* Rorschach-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B7AEDF2D3DC519526C8498CB51895B /* Rorschach-dummy.m */; };
+		8B88DC8FF8D1FA36921B53E17D329178 /* Pods-Rorschach_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F44DDDC98D5C801DC59E5D48FC3067 /* Pods-Rorschach_Tests-dummy.m */; };
+		91A5F41196DCAF5D8528054F1D0508D8 /* Pods-Rorschach_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E3813C5795C554F684A77C28AD6C33 /* Pods-Rorschach_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1673ADC68D67C1C22246FD3B6FA163 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45636CD5844E32E8B1EA28BEFEB1C77B /* ReplaceMe.swift */; };
+		D59FAAFF298B8E408311A94E6B905C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D6C079596C217256D08F401361F11B05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		DE0AC39E57C43695E49351F50B7E961E /* Pods-Rorschach_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D4DD6CDEEE01341CB0C6AC9F3A8C53 /* Pods-Rorschach_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B6FE911282E72AC63B970A7EAB49631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CA3F3B20E311867ABA790CEEAA1A85;
+			remoteInfo = "Pods-Rorschach_Example";
+		};
+		B341217923554CEAF287F3DC2A95AF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3055CA86DB45F366C2E9C35B8D2EA0;
+			remoteInfo = Rorschach;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E29ADB5A4C4DAC7210EC6C365431899 /* Rorschach-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Rorschach-Info.plist"; sourceTree = "<group>"; };
+		2D8CFE19D552A459A690CB7CEF3C577B /* Rorschach-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rorschach-umbrella.h"; sourceTree = "<group>"; };
+		30B933BBB1CF545DF5C398E099AC37F0 /* Pods-Rorschach_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Example.release.xcconfig"; sourceTree = "<group>"; };
+		35C5641DE354D2ED0C7391522BC8B2B0 /* Rorschach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Rorschach.framework; path = Rorschach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F8B7B5D11095F1D1988482FCE35C3F /* Pods_Rorschach_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rorschach_Tests.framework; path = "Pods-Rorschach_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		366ED35E0B82E1E53E48BFADE2D8F5D4 /* Pods-Rorschach_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Example-Info.plist"; sourceTree = "<group>"; };
+		3C4197C70BEF5005F7D6C43945B86B8F /* Pods-Rorschach_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4208BD5FE953866B7D0E037CC71F46E7 /* Pods-Rorschach_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rorschach_Tests-umbrella.h"; sourceTree = "<group>"; };
+		454FA3000095DD9A3EFECE3FC81484B0 /* Rorschach.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rorschach.xcconfig; sourceTree = "<group>"; };
+		45636CD5844E32E8B1EA28BEFEB1C77B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Rorschach/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		489CD89370D6B5A07088B19645F61D57 /* Pods-Rorschach_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Tests-Info.plist"; sourceTree = "<group>"; };
+		4F52E89C818A3136AFFFA0972D7645DF /* Pods-Rorschach_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rorschach_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58B3AD08D518F93E8439A56ED079FBFB /* Pods-Rorschach_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rorschach_Example.modulemap"; sourceTree = "<group>"; };
+		5924A0AD3C24B8CA4EF02ABBF0F53593 /* Pods-Rorschach_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rorschach_Tests.modulemap"; sourceTree = "<group>"; };
+		9526B4226B0BF8C407538318C0322D0F /* Rorschach.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Rorschach.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		955927BBD257131B8510A5F278E34480 /* Pods-Rorschach_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B8BAC103006D8C1E8081686BA1B29CD /* Pods_Rorschach_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rorschach_Example.framework; path = "Pods-Rorschach_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A370C399F2E5793C30F9AEDA1C6E3169 /* Pods-Rorschach_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E3813C5795C554F684A77C28AD6C33 /* Pods-Rorschach_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rorschach_Example-umbrella.h"; sourceTree = "<group>"; };
+		B3F44DDDC98D5C801DC59E5D48FC3067 /* Pods-Rorschach_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rorschach_Tests-dummy.m"; sourceTree = "<group>"; };
+		BA44982367ED460C444F92AAF77A90ED /* Pods-Rorschach_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C848A09AD6874DC02951DA9224A5BB73 /* Pods-Rorschach_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rorschach_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C95FC3226A93DDC71016333972DFDEA6 /* Rorschach.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Rorschach.modulemap; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD99CF6F11988DB8B4AD39ACB273DC73 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D6B7AEDF2D3DC519526C8498CB51895B /* Rorschach-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Rorschach-dummy.m"; sourceTree = "<group>"; };
+		D6C3DFEBF061815D8534E303EAA503EC /* Pods-Rorschach_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD7F57F0B0AB04A30765CD85DBF03216 /* Rorschach-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rorschach-prefix.pch"; sourceTree = "<group>"; };
+		E1D4DD6CDEEE01341CB0C6AC9F3A8C53 /* Pods-Rorschach_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rorschach_Example-dummy.m"; sourceTree = "<group>"; };
+		F6A553BEA25646B7F26616C08CAAA2C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F7A646C43D613701A5841F99CE8AB020 /* Pods-Rorschach_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rorschach_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1942BB363AF249A261123BAD35A7DBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDDBC4CFECA9B82301F6AC73A01AC84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FB265AF8EF0D4DC0AA83E6CAC7DA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C079596C217256D08F401361F11B05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6B0460C4B2631DD22CB3AACF5AE1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59FAAFF298B8E408311A94E6B905C39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DBFB1AEB67259C13F2CF9F368C4EA7D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A37E8600DBC12F6A44E75E551C8C70F5 /* Pods-Rorschach_Example */,
+				7525ADA7B1F8CAA16A53D3FD4C86681B /* Pods-Rorschach_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2EA4FB3C7BE630AFB7B6EC7428667652 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C95FC3226A93DDC71016333972DFDEA6 /* Rorschach.modulemap */,
+				454FA3000095DD9A3EFECE3FC81484B0 /* Rorschach.xcconfig */,
+				D6B7AEDF2D3DC519526C8498CB51895B /* Rorschach-dummy.m */,
+				1E29ADB5A4C4DAC7210EC6C365431899 /* Rorschach-Info.plist */,
+				DD7F57F0B0AB04A30765CD85DBF03216 /* Rorschach-prefix.pch */,
+				2D8CFE19D552A459A690CB7CEF3C577B /* Rorschach-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Rorschach";
+			sourceTree = "<group>";
+		};
+		5ADB90A9CB502D3BF2AAF91EEA62E174 /* Rorschach */ = {
+			isa = PBXGroup;
+			children = (
+				45636CD5844E32E8B1EA28BEFEB1C77B /* ReplaceMe.swift */,
+				82B13BCAD6E92FE9765507FDEDFA3D9C /* Pod */,
+				2EA4FB3C7BE630AFB7B6EC7428667652 /* Support Files */,
+			);
+			name = Rorschach;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7525ADA7B1F8CAA16A53D3FD4C86681B /* Pods-Rorschach_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5924A0AD3C24B8CA4EF02ABBF0F53593 /* Pods-Rorschach_Tests.modulemap */,
+				C848A09AD6874DC02951DA9224A5BB73 /* Pods-Rorschach_Tests-acknowledgements.markdown */,
+				D6C3DFEBF061815D8534E303EAA503EC /* Pods-Rorschach_Tests-acknowledgements.plist */,
+				B3F44DDDC98D5C801DC59E5D48FC3067 /* Pods-Rorschach_Tests-dummy.m */,
+				489CD89370D6B5A07088B19645F61D57 /* Pods-Rorschach_Tests-Info.plist */,
+				4208BD5FE953866B7D0E037CC71F46E7 /* Pods-Rorschach_Tests-umbrella.h */,
+				A370C399F2E5793C30F9AEDA1C6E3169 /* Pods-Rorschach_Tests.debug.xcconfig */,
+				3C4197C70BEF5005F7D6C43945B86B8F /* Pods-Rorschach_Tests.release.xcconfig */,
+			);
+			name = "Pods-Rorschach_Tests";
+			path = "Target Support Files/Pods-Rorschach_Tests";
+			sourceTree = "<group>";
+		};
+		78CB09DCC753727CA6F9632F12AB4EB3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ADB90A9CB502D3BF2AAF91EEA62E174 /* Rorschach */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		82B13BCAD6E92FE9765507FDEDFA3D9C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CD99CF6F11988DB8B4AD39ACB273DC73 /* LICENSE */,
+				F6A553BEA25646B7F26616C08CAAA2C7 /* README.md */,
+				9526B4226B0BF8C407538318C0322D0F /* Rorschach.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A37E8600DBC12F6A44E75E551C8C70F5 /* Pods-Rorschach_Example */ = {
+			isa = PBXGroup;
+			children = (
+				58B3AD08D518F93E8439A56ED079FBFB /* Pods-Rorschach_Example.modulemap */,
+				4F52E89C818A3136AFFFA0972D7645DF /* Pods-Rorschach_Example-acknowledgements.markdown */,
+				955927BBD257131B8510A5F278E34480 /* Pods-Rorschach_Example-acknowledgements.plist */,
+				E1D4DD6CDEEE01341CB0C6AC9F3A8C53 /* Pods-Rorschach_Example-dummy.m */,
+				F7A646C43D613701A5841F99CE8AB020 /* Pods-Rorschach_Example-frameworks.sh */,
+				366ED35E0B82E1E53E48BFADE2D8F5D4 /* Pods-Rorschach_Example-Info.plist */,
+				A4E3813C5795C554F684A77C28AD6C33 /* Pods-Rorschach_Example-umbrella.h */,
+				BA44982367ED460C444F92AAF77A90ED /* Pods-Rorschach_Example.debug.xcconfig */,
+				30B933BBB1CF545DF5C398E099AC37F0 /* Pods-Rorschach_Example.release.xcconfig */,
+			);
+			name = "Pods-Rorschach_Example";
+			path = "Target Support Files/Pods-Rorschach_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				78CB09DCC753727CA6F9632F12AB4EB3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DE11F370E38874AE4DE3A5B8C4EDB174 /* Products */,
+				1DBFB1AEB67259C13F2CF9F368C4EA7D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE11F370E38874AE4DE3A5B8C4EDB174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B8BAC103006D8C1E8081686BA1B29CD /* Pods_Rorschach_Example.framework */,
+				35F8B7B5D11095F1D1988482FCE35C3F /* Pods_Rorschach_Tests.framework */,
+				35C5641DE354D2ED0C7391522BC8B2B0 /* Rorschach.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		228D61BBD2AFEA32AC418946E765BCE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C104AE7ADA84238670B20CF2A7F288 /* Rorschach-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C0AD90F86F127E214F2DCD8BC9584B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051EFDBF1DCB6BCFAE9A15E86736AAE8 /* Pods-Rorschach_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF026F30841813F0B438E8E0430A2D9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A5F41196DCAF5D8528054F1D0508D8 /* Pods-Rorschach_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B3055CA86DB45F366C2E9C35B8D2EA0 /* Rorschach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55919A912B19E947082CD64E8498ED87 /* Build configuration list for PBXNativeTarget "Rorschach" */;
+			buildPhases = (
+				228D61BBD2AFEA32AC418946E765BCE0 /* Headers */,
+				C49547E967A9FBFD54C2A615ECFC63BD /* Sources */,
+				89FB265AF8EF0D4DC0AA83E6CAC7DA51 /* Frameworks */,
+				6D020F3CED5F388F4FF3EF09C9E27BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rorschach;
+			productName = Rorschach;
+			productReference = 35C5641DE354D2ED0C7391522BC8B2B0 /* Rorschach.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		951FD2659741051C835890D62D177CD8 /* Pods-Rorschach_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41297069E8B232F37BFA7F3C1B7E6D5A /* Build configuration list for PBXNativeTarget "Pods-Rorschach_Tests" */;
+			buildPhases = (
+				2C0AD90F86F127E214F2DCD8BC9584B5 /* Headers */,
+				DAE564B4EA8D83F81E977587894D1758 /* Sources */,
+				1942BB363AF249A261123BAD35A7DBEA /* Frameworks */,
+				DF32CCFED71F90D78494BCC3DC34F07C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97C0276585BCA3FE790A1ED168BBE89E /* PBXTargetDependency */,
+			);
+			name = "Pods-Rorschach_Tests";
+			productName = "Pods-Rorschach_Tests";
+			productReference = 35F8B7B5D11095F1D1988482FCE35C3F /* Pods_Rorschach_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98CA3F3B20E311867ABA790CEEAA1A85 /* Pods-Rorschach_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED37FA8E0D81C444D77C13260DF05272 /* Build configuration list for PBXNativeTarget "Pods-Rorschach_Example" */;
+			buildPhases = (
+				AF026F30841813F0B438E8E0430A2D9A /* Headers */,
+				2693B7292FC8C6F255A08A5F50ABCA53 /* Sources */,
+				CA6B0460C4B2631DD22CB3AACF5AE1E3 /* Frameworks */,
+				99D89A54A754448E37C908DD4BE1AAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				357611460E2E222B645CF9A8D75FD5FA /* PBXTargetDependency */,
+			);
+			name = "Pods-Rorschach_Example";
+			productName = "Pods-Rorschach_Example";
+			productReference = 9B8BAC103006D8C1E8081686BA1B29CD /* Pods_Rorschach_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DE11F370E38874AE4DE3A5B8C4EDB174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98CA3F3B20E311867ABA790CEEAA1A85 /* Pods-Rorschach_Example */,
+				951FD2659741051C835890D62D177CD8 /* Pods-Rorschach_Tests */,
+				3B3055CA86DB45F366C2E9C35B8D2EA0 /* Rorschach */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D020F3CED5F388F4FF3EF09C9E27BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D89A54A754448E37C908DD4BE1AAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF32CCFED71F90D78494BCC3DC34F07C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2693B7292FC8C6F255A08A5F50ABCA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0AC39E57C43695E49351F50B7E961E /* Pods-Rorschach_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49547E967A9FBFD54C2A615ECFC63BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1673ADC68D67C1C22246FD3B6FA163 /* ReplaceMe.swift in Sources */,
+				5FDB00E94856413528F0B2B9EF0BC2A2 /* Rorschach-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE564B4EA8D83F81E977587894D1758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B88DC8FF8D1FA36921B53E17D329178 /* Pods-Rorschach_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		357611460E2E222B645CF9A8D75FD5FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Rorschach;
+			target = 3B3055CA86DB45F366C2E9C35B8D2EA0 /* Rorschach */;
+			targetProxy = B341217923554CEAF287F3DC2A95AF6E /* PBXContainerItemProxy */;
+		};
+		97C0276585BCA3FE790A1ED168BBE89E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Rorschach_Example";
+			target = 98CA3F3B20E311867ABA790CEEAA1A85 /* Pods-Rorschach_Example */;
+			targetProxy = 4B6FE911282E72AC63B970A7EAB49631 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07C110C77CB3CE9694B4429CF05182F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA44982367ED460C444F92AAF77A90ED /* Pods-Rorschach_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rorschach_Example/Pods-Rorschach_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rorschach_Example/Pods-Rorschach_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		107E29F15742A4BD0BCC64E00D210FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4197C70BEF5005F7D6C43945B86B8F /* Pods-Rorschach_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rorschach_Tests/Pods-Rorschach_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rorschach_Tests/Pods-Rorschach_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3363A972704EE5F163ACEDEF5E1AEFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454FA3000095DD9A3EFECE3FC81484B0 /* Rorschach.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Rorschach/Rorschach-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rorschach/Rorschach-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rorschach/Rorschach.modulemap";
+				PRODUCT_MODULE_NAME = Rorschach;
+				PRODUCT_NAME = Rorschach;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C550CA7D3FB10261A8FCFD42AB7C89C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B933BBB1CF545DF5C398E099AC37F0 /* Pods-Rorschach_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rorschach_Example/Pods-Rorschach_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rorschach_Example/Pods-Rorschach_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE644FAA1DA72B564D80825CC7A9F5E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A370C399F2E5793C30F9AEDA1C6E3169 /* Pods-Rorschach_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rorschach_Tests/Pods-Rorschach_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rorschach_Tests/Pods-Rorschach_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E34EE298956DD6FE46D798DC7DC1E255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454FA3000095DD9A3EFECE3FC81484B0 /* Rorschach.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Rorschach/Rorschach-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rorschach/Rorschach-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rorschach/Rorschach.modulemap";
+				PRODUCT_MODULE_NAME = Rorschach;
+				PRODUCT_NAME = Rorschach;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41297069E8B232F37BFA7F3C1B7E6D5A /* Build configuration list for PBXNativeTarget "Pods-Rorschach_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE644FAA1DA72B564D80825CC7A9F5E2 /* Debug */,
+				107E29F15742A4BD0BCC64E00D210FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55919A912B19E947082CD64E8498ED87 /* Build configuration list for PBXNativeTarget "Rorschach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34EE298956DD6FE46D798DC7DC1E255 /* Debug */,
+				3363A972704EE5F163ACEDEF5E1AEFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED37FA8E0D81C444D77C13260DF05272 /* Build configuration list for PBXNativeTarget "Pods-Rorschach_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C110C77CB3CE9694B4429CF05182F0 /* Debug */,
+				C550CA7D3FB10261A8FCFD42AB7C89C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

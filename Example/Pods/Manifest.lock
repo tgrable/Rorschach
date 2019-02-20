@@ -1,0 +1,16 @@
+PODS:
+  - Rorschach (0.1.0)
+
+DEPENDENCIES:
+  - Rorschach (from `../`)
+
+EXTERNAL SOURCES:
+  Rorschach:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Rorschach: 655bb71b43bec9a90de51992f60352c13bc7998b
+
+PODFILE CHECKSUM: 53cd5caff37d9bcd36a1dc2bb30024eb81f58ce8
+
+COCOAPODS: 1.6.0

@@ -1,0 +1,22 @@
+{
+  "name": "Rorschach",
+  "version": "0.1.0",
+  "summary": "A short description of Rorschach.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tgrable04@gmail.com/Rorschach",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tgrable04@gmail.com": "tgrable@acculynx.com"
+  },
+  "source": {
+    "git": "https://github.com/tgrable04@gmail.com/Rorschach.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Rorschach/Classes/**/*"
+}
