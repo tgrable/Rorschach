@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		051EFDBF1DCB6BCFAE9A15E86736AAE8 /* Pods-Rorschach_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4208BD5FE953866B7D0E037CC71F46E7 /* Pods-Rorschach_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10C104AE7ADA84238670B20CF2A7F288 /* Rorschach-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D8CFE19D552A459A690CB7CEF3C577B /* Rorschach-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C8F2BA4221E02CF00F4FDB4 /* OptionalExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F2BA3221E02CF00F4FDB4 /* OptionalExt.swift */; };
 		4CDDBC4CFECA9B82301F6AC73A01AC84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		5FDB00E94856413528F0B2B9EF0BC2A2 /* Rorschach-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B7AEDF2D3DC519526C8498CB51895B /* Rorschach-dummy.m */; };
 		8B88DC8FF8D1FA36921B53E17D329178 /* Pods-Rorschach_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F44DDDC98D5C801DC59E5D48FC3067 /* Pods-Rorschach_Tests-dummy.m */; };
 		91A5F41196DCAF5D8528054F1D0508D8 /* Pods-Rorschach_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E3813C5795C554F684A77C28AD6C33 /* Pods-Rorschach_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1673ADC68D67C1C22246FD3B6FA163 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45636CD5844E32E8B1EA28BEFEB1C77B /* ReplaceMe.swift */; };
 		D59FAAFF298B8E408311A94E6B905C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		D6C079596C217256D08F401361F11B05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		DE0AC39E57C43695E49351F50B7E961E /* Pods-Rorschach_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D4DD6CDEEE01341CB0C6AC9F3A8C53 /* Pods-Rorschach_Example-dummy.m */; };
@@ -38,23 +38,23 @@
 
 /* Begin PBXFileReference section */
 		1E29ADB5A4C4DAC7210EC6C365431899 /* Rorschach-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Rorschach-Info.plist"; sourceTree = "<group>"; };
+		2C8F2BA3221E02CF00F4FDB4 /* OptionalExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalExt.swift; sourceTree = "<group>"; };
 		2D8CFE19D552A459A690CB7CEF3C577B /* Rorschach-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rorschach-umbrella.h"; sourceTree = "<group>"; };
 		30B933BBB1CF545DF5C398E099AC37F0 /* Pods-Rorschach_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Example.release.xcconfig"; sourceTree = "<group>"; };
-		35C5641DE354D2ED0C7391522BC8B2B0 /* Rorschach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Rorschach.framework; path = Rorschach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F8B7B5D11095F1D1988482FCE35C3F /* Pods_Rorschach_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rorschach_Tests.framework; path = "Pods-Rorschach_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C5641DE354D2ED0C7391522BC8B2B0 /* Rorschach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rorschach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F8B7B5D11095F1D1988482FCE35C3F /* Pods_Rorschach_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rorschach_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		366ED35E0B82E1E53E48BFADE2D8F5D4 /* Pods-Rorschach_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Example-Info.plist"; sourceTree = "<group>"; };
 		3C4197C70BEF5005F7D6C43945B86B8F /* Pods-Rorschach_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4208BD5FE953866B7D0E037CC71F46E7 /* Pods-Rorschach_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rorschach_Tests-umbrella.h"; sourceTree = "<group>"; };
 		454FA3000095DD9A3EFECE3FC81484B0 /* Rorschach.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rorschach.xcconfig; sourceTree = "<group>"; };
-		45636CD5844E32E8B1EA28BEFEB1C77B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Rorschach/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		489CD89370D6B5A07088B19645F61D57 /* Pods-Rorschach_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Tests-Info.plist"; sourceTree = "<group>"; };
 		4F52E89C818A3136AFFFA0972D7645DF /* Pods-Rorschach_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rorschach_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		58B3AD08D518F93E8439A56ED079FBFB /* Pods-Rorschach_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rorschach_Example.modulemap"; sourceTree = "<group>"; };
 		5924A0AD3C24B8CA4EF02ABBF0F53593 /* Pods-Rorschach_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rorschach_Tests.modulemap"; sourceTree = "<group>"; };
-		9526B4226B0BF8C407538318C0322D0F /* Rorschach.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Rorschach.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9526B4226B0BF8C407538318C0322D0F /* Rorschach.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Rorschach.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		955927BBD257131B8510A5F278E34480 /* Pods-Rorschach_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B8BAC103006D8C1E8081686BA1B29CD /* Pods_Rorschach_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rorschach_Example.framework; path = "Pods-Rorschach_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B8BAC103006D8C1E8081686BA1B29CD /* Pods_Rorschach_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rorschach_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A370C399F2E5793C30F9AEDA1C6E3169 /* Pods-Rorschach_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4E3813C5795C554F684A77C28AD6C33 /* Pods-Rorschach_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rorschach_Example-umbrella.h"; sourceTree = "<group>"; };
 		B3F44DDDC98D5C801DC59E5D48FC3067 /* Pods-Rorschach_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rorschach_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -62,12 +62,12 @@
 		C848A09AD6874DC02951DA9224A5BB73 /* Pods-Rorschach_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rorschach_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C95FC3226A93DDC71016333972DFDEA6 /* Rorschach.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Rorschach.modulemap; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD99CF6F11988DB8B4AD39ACB273DC73 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CD99CF6F11988DB8B4AD39ACB273DC73 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D6B7AEDF2D3DC519526C8498CB51895B /* Rorschach-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Rorschach-dummy.m"; sourceTree = "<group>"; };
 		D6C3DFEBF061815D8534E303EAA503EC /* Pods-Rorschach_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DD7F57F0B0AB04A30765CD85DBF03216 /* Rorschach-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rorschach-prefix.pch"; sourceTree = "<group>"; };
 		E1D4DD6CDEEE01341CB0C6AC9F3A8C53 /* Pods-Rorschach_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rorschach_Example-dummy.m"; sourceTree = "<group>"; };
-		F6A553BEA25646B7F26616C08CAAA2C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F6A553BEA25646B7F26616C08CAAA2C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F7A646C43D613701A5841F99CE8AB020 /* Pods-Rorschach_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rorschach_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,7 +125,7 @@
 		5ADB90A9CB502D3BF2AAF91EEA62E174 /* Rorschach */ = {
 			isa = PBXGroup;
 			children = (
-				45636CD5844E32E8B1EA28BEFEB1C77B /* ReplaceMe.swift */,
+				2C8F2BA3221E02CF00F4FDB4 /* OptionalExt.swift */,
 				82B13BCAD6E92FE9765507FDEDFA3D9C /* Pod */,
 				2EA4FB3C7BE630AFB7B6EC7428667652 /* Support Files */,
 			);
@@ -315,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					98CA3F3B20E311867ABA790CEEAA1A85 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -365,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0AC39E57C43695E49351F50B7E961E /* Pods-Rorschach_Example-dummy.m in Sources */,
+				2C8F2BA4221E02CF00F4FDB4 /* OptionalExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +378,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1673ADC68D67C1C22246FD3B6FA163 /* ReplaceMe.swift in Sources */,
 				5FDB00E94856413528F0B2B9EF0BC2A2 /* Rorschach-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +413,7 @@
 			baseConfigurationReference = BA44982367ED460C444F92AAF77A90ED /* Pods-Rorschach_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -430,6 +436,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -571,6 +579,7 @@
 			baseConfigurationReference = 30B933BBB1CF545DF5C398E099AC37F0 /* Pods-Rorschach_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -593,6 +602,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -717,8 +727,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
