@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Rorschach_Example' do
+  pod 'Rorschach', :path => '../'
+
+  target 'Rorschach_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
