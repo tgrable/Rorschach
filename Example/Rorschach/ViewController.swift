@@ -8,11 +8,28 @@
 
 import UIKit
 
+struct BillingInfo {
+    var name: String
+    var vatNumber: String?
+    var thing: [String]?
+}
+
+extension BillingInfo {
+    var lines: [String] {
+        return [
+            "Name: \(name)",
+            vatNumber.nonEmpty.map { "Your VAT Number is: \($0)" } ?? "No VAT Number."
+        ]
+    }
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        print()
     }
 
     override func didReceiveMemoryWarning() {
