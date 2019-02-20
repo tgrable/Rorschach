@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Optional where Wrapped: Collection {
+public extension Optional where Wrapped: Collection {
     var nonEmpty: Wrapped? {
         return self?.isEmpty == true ? nil : self
     }

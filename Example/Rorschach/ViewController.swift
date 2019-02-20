@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Rorschach
 
 struct BillingInfo {
     var name: String

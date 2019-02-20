@@ -6,25 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		3B3055CA86DB45F366C2E9C35B8D2EA0 /* Rorschach */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 55919A912B19E947082CD64E8498ED87 /* Build configuration list for PBXAggregateTarget "Rorschach" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = Rorschach;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		051EFDBF1DCB6BCFAE9A15E86736AAE8 /* Pods-Rorschach_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0657591A18C63F3FC9BD701390F9436 /* Pods-Rorschach_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		051EFDBF1DCB6BCFAE9A15E86736AAE8 /* Pods-Rorschach_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4208BD5FE953866B7D0E037CC71F46E7 /* Pods-Rorschach_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10C104AE7ADA84238670B20CF2A7F288 /* Rorschach-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AEE2546A087924CDAA4A566A5AF0C78 /* Rorschach-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CDDBC4CFECA9B82301F6AC73A01AC84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		8B88DC8FF8D1FA36921B53E17D329178 /* Pods-Rorschach_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 949D042D8BB1AC4D33D882ECE79140F1 /* Pods-Rorschach_Tests-dummy.m */; };
-		91A5F41196DCAF5D8528054F1D0508D8 /* Pods-Rorschach_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4117B67B953025140E2B475929C3A1A7 /* Pods-Rorschach_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B88DC8FF8D1FA36921B53E17D329178 /* Pods-Rorschach_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F44DDDC98D5C801DC59E5D48FC3067 /* Pods-Rorschach_Tests-dummy.m */; };
+		91A5F41196DCAF5D8528054F1D0508D8 /* Pods-Rorschach_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E3813C5795C554F684A77C28AD6C33 /* Pods-Rorschach_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C35416749094E042BD89C78193B04341 /* Rorschach-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A276BF59E047307A165879295EB02449 /* Rorschach-dummy.m */; };
 		D59FAAFF298B8E408311A94E6B905C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		DE0AC39E57C43695E49351F50B7E961E /* Pods-Rorschach_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA361F3B5D6D7492C6D75B10848424D /* Pods-Rorschach_Example-dummy.m */; };
+		D6C079596C217256D08F401361F11B05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		DE0AC39E57C43695E49351F50B7E961E /* Pods-Rorschach_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D4DD6CDEEE01341CB0C6AC9F3A8C53 /* Pods-Rorschach_Example-dummy.m */; };
+		FE71633784CF16523BF7E218A33DA4CE /* OptionalExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECDD1B206D39714A72AA2103128CDB7 /* OptionalExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,30 +37,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		065ED76F1BA09226AC7F569A7D4B12A3 /* Pods-Rorschach_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0845D04DAD67737C46384E9CC1FD2896 /* Pods-Rorschach_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Example-Info.plist"; sourceTree = "<group>"; };
-		19E5F06322493AAD6D6776CF9632C771 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		29A7E83E4FD8A5D291A74CF0AA92FF19 /* Pods_Rorschach_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rorschach_Tests.framework; path = "Pods-Rorschach_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38959A448A4A1F4D3D11369271724A44 /* Pods-Rorschach_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rorschach_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4117B67B953025140E2B475929C3A1A7 /* Pods-Rorschach_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rorschach_Example-umbrella.h"; sourceTree = "<group>"; };
-		4364710BBCAB0DA48752BCA224B98509 /* Pods_Rorschach_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rorschach_Example.framework; path = "Pods-Rorschach_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AA361F3B5D6D7492C6D75B10848424D /* Pods-Rorschach_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rorschach_Example-dummy.m"; sourceTree = "<group>"; };
-		50099C1AC783A5762E227E1DB98DAC40 /* Rorschach.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Rorschach.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		52DEE81BF6ABAB2FC891F06E8A15F038 /* Pods-Rorschach_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5A025A6E9FC7A45CC4D7D519F6C60EFF /* Pods-Rorschach_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rorschach_Example.modulemap"; sourceTree = "<group>"; };
-		5C0FADD7C1C123CF1D7FABC1D0CFBD3F /* Pods-Rorschach_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rorschach_Tests.modulemap"; sourceTree = "<group>"; };
-		949D042D8BB1AC4D33D882ECE79140F1 /* Pods-Rorschach_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rorschach_Tests-dummy.m"; sourceTree = "<group>"; };
+		1F297DC0C5BF5527B35CFF725B8B63FD /* Rorschach-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Rorschach-Info.plist"; sourceTree = "<group>"; };
+		30B933BBB1CF545DF5C398E099AC37F0 /* Pods-Rorschach_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Example.release.xcconfig"; sourceTree = "<group>"; };
+		35C5641DE354D2ED0C7391522BC8B2B0 /* Rorschach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Rorschach.framework; path = Rorschach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F8B7B5D11095F1D1988482FCE35C3F /* Pods_Rorschach_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rorschach_Tests.framework; path = "Pods-Rorschach_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		366ED35E0B82E1E53E48BFADE2D8F5D4 /* Pods-Rorschach_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Example-Info.plist"; sourceTree = "<group>"; };
+		3C4197C70BEF5005F7D6C43945B86B8F /* Pods-Rorschach_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		40B8B6435D578D89386F5EB9AE8F6B35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4208BD5FE953866B7D0E037CC71F46E7 /* Pods-Rorschach_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rorschach_Tests-umbrella.h"; sourceTree = "<group>"; };
+		489CD89370D6B5A07088B19645F61D57 /* Pods-Rorschach_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Tests-Info.plist"; sourceTree = "<group>"; };
+		4F52E89C818A3136AFFFA0972D7645DF /* Pods-Rorschach_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rorschach_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50B866B410A05EC84FA668CEB54F481A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		58B3AD08D518F93E8439A56ED079FBFB /* Pods-Rorschach_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rorschach_Example.modulemap"; sourceTree = "<group>"; };
+		5924A0AD3C24B8CA4EF02ABBF0F53593 /* Pods-Rorschach_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rorschach_Tests.modulemap"; sourceTree = "<group>"; };
+		68990150473587B77C66883F12FC7B76 /* Rorschach.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Rorschach.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8AEE2546A087924CDAA4A566A5AF0C78 /* Rorschach-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rorschach-umbrella.h"; sourceTree = "<group>"; };
+		955927BBD257131B8510A5F278E34480 /* Pods-Rorschach_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B8BAC103006D8C1E8081686BA1B29CD /* Pods_Rorschach_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rorschach_Example.framework; path = "Pods-Rorschach_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0657591A18C63F3FC9BD701390F9436 /* Pods-Rorschach_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rorschach_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A9B36CCDC86AE24C8A43E7497BE75D93 /* Pods-Rorschach_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rorschach_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AC8301EDBD4CFF193314D0DC98069F6A /* Pods-Rorschach_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ACEF687C8355B6F78108F7E52A45C9EC /* Pods-Rorschach_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C7179F31D88DF8DCD953DC53485D56E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CAC548108670A6F4E5FEE8891E84FD65 /* Pods-Rorschach_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9EFA14A0DE49C3B12320A75C09C0C30D /* Rorschach-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rorschach-prefix.pch"; sourceTree = "<group>"; };
+		A276BF59E047307A165879295EB02449 /* Rorschach-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Rorschach-dummy.m"; sourceTree = "<group>"; };
+		A370C399F2E5793C30F9AEDA1C6E3169 /* Pods-Rorschach_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E3813C5795C554F684A77C28AD6C33 /* Pods-Rorschach_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rorschach_Example-umbrella.h"; sourceTree = "<group>"; };
+		B3F44DDDC98D5C801DC59E5D48FC3067 /* Pods-Rorschach_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rorschach_Tests-dummy.m"; sourceTree = "<group>"; };
+		BA44982367ED460C444F92AAF77A90ED /* Pods-Rorschach_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rorschach_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BF7A43AAF40F7FBE9DC693EEA725BCCA /* Rorschach.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rorschach.xcconfig; sourceTree = "<group>"; };
+		C848A09AD6874DC02951DA9224A5BB73 /* Pods-Rorschach_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rorschach_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CFEE678F289CA8F3D0EC0C6C03BD70A7 /* Pods-Rorschach_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Tests-Info.plist"; sourceTree = "<group>"; };
-		D53543993F389476659D826AC4C293ED /* Rorschach.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rorschach.xcconfig; sourceTree = "<group>"; };
-		E31BDF24ADB2614627A714A40F94DA65 /* Pods-Rorschach_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6C3DFEBF061815D8534E303EAA503EC /* Pods-Rorschach_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rorschach_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1D4DD6CDEEE01341CB0C6AC9F3A8C53 /* Pods-Rorschach_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rorschach_Example-dummy.m"; sourceTree = "<group>"; };
+		E670AC357A536A3BF1E9F07A4EF8A3C1 /* Rorschach.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Rorschach.modulemap; sourceTree = "<group>"; };
+		F7A646C43D613701A5841F99CE8AB020 /* Pods-Rorschach_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rorschach_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FECDD1B206D39714A72AA2103128CDB7 /* OptionalExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionalExt.swift; path = Rorschach/Classes/OptionalExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CDDBC4CFECA9B82301F6AC73A01AC84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FB265AF8EF0D4DC0AA83E6CAC7DA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C079596C217256D08F401361F11B05 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,65 +99,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B3C8AB4697960D0DCA8398CBDFAB69E /* Targets Support Files */ = {
+		1DBFB1AEB67259C13F2CF9F368C4EA7D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4689CF8D56EEE386A0BB1249E42A1A6D /* Pods-Rorschach_Example */,
-				241E50876943F815D999CA3F012E66A2 /* Pods-Rorschach_Tests */,
+				A37E8600DBC12F6A44E75E551C8C70F5 /* Pods-Rorschach_Example */,
+				7525ADA7B1F8CAA16A53D3FD4C86681B /* Pods-Rorschach_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		241E50876943F815D999CA3F012E66A2 /* Pods-Rorschach_Tests */ = {
+		25B06EB4C38036218C20641904E7D682 /* Rorschach */ = {
 			isa = PBXGroup;
 			children = (
-				5C0FADD7C1C123CF1D7FABC1D0CFBD3F /* Pods-Rorschach_Tests.modulemap */,
-				38959A448A4A1F4D3D11369271724A44 /* Pods-Rorschach_Tests-acknowledgements.markdown */,
-				065ED76F1BA09226AC7F569A7D4B12A3 /* Pods-Rorschach_Tests-acknowledgements.plist */,
-				949D042D8BB1AC4D33D882ECE79140F1 /* Pods-Rorschach_Tests-dummy.m */,
-				CFEE678F289CA8F3D0EC0C6C03BD70A7 /* Pods-Rorschach_Tests-Info.plist */,
-				A0657591A18C63F3FC9BD701390F9436 /* Pods-Rorschach_Tests-umbrella.h */,
-				52DEE81BF6ABAB2FC891F06E8A15F038 /* Pods-Rorschach_Tests.debug.xcconfig */,
-				ACEF687C8355B6F78108F7E52A45C9EC /* Pods-Rorschach_Tests.release.xcconfig */,
-			);
-			name = "Pods-Rorschach_Tests";
-			path = "Target Support Files/Pods-Rorschach_Tests";
-			sourceTree = "<group>";
-		};
-		2F6C4E5A0EB2CDCF46B274AF29F2B4A6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C7179F31D88DF8DCD953DC53485D56E6 /* LICENSE */,
-				19E5F06322493AAD6D6776CF9632C771 /* README.md */,
-				50099C1AC783A5762E227E1DB98DAC40 /* Rorschach.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		31FBA3ED62A45EBA59BF03A69C1A8EEB /* Rorschach */ = {
-			isa = PBXGroup;
-			children = (
-				2F6C4E5A0EB2CDCF46B274AF29F2B4A6 /* Pod */,
-				CF07B61823775A930AFF1F4FF84F52A7 /* Support Files */,
+				FECDD1B206D39714A72AA2103128CDB7 /* OptionalExt.swift */,
+				42E8D6047E6D36FCBB34A1F9C57D93C0 /* Pod */,
+				6A5735FB6959AC674B6C8FE25076E751 /* Support Files */,
 			);
 			name = Rorschach;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		4689CF8D56EEE386A0BB1249E42A1A6D /* Pods-Rorschach_Example */ = {
+		42E8D6047E6D36FCBB34A1F9C57D93C0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5A025A6E9FC7A45CC4D7D519F6C60EFF /* Pods-Rorschach_Example.modulemap */,
-				A9B36CCDC86AE24C8A43E7497BE75D93 /* Pods-Rorschach_Example-acknowledgements.markdown */,
-				E31BDF24ADB2614627A714A40F94DA65 /* Pods-Rorschach_Example-acknowledgements.plist */,
-				4AA361F3B5D6D7492C6D75B10848424D /* Pods-Rorschach_Example-dummy.m */,
-				0845D04DAD67737C46384E9CC1FD2896 /* Pods-Rorschach_Example-Info.plist */,
-				4117B67B953025140E2B475929C3A1A7 /* Pods-Rorschach_Example-umbrella.h */,
-				AC8301EDBD4CFF193314D0DC98069F6A /* Pods-Rorschach_Example.debug.xcconfig */,
-				CAC548108670A6F4E5FEE8891E84FD65 /* Pods-Rorschach_Example.release.xcconfig */,
+				50B866B410A05EC84FA668CEB54F481A /* LICENSE */,
+				40B8B6435D578D89386F5EB9AE8F6B35 /* README.md */,
+				68990150473587B77C66883F12FC7B76 /* Rorschach.podspec */,
 			);
-			name = "Pods-Rorschach_Example";
-			path = "Target Support Files/Pods-Rorschach_Example";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6A5735FB6959AC674B6C8FE25076E751 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E670AC357A536A3BF1E9F07A4EF8A3C1 /* Rorschach.modulemap */,
+				BF7A43AAF40F7FBE9DC693EEA725BCCA /* Rorschach.xcconfig */,
+				A276BF59E047307A165879295EB02449 /* Rorschach-dummy.m */,
+				1F297DC0C5BF5527B35CFF725B8B63FD /* Rorschach-Info.plist */,
+				9EFA14A0DE49C3B12320A75C09C0C30D /* Rorschach-prefix.pch */,
+				8AEE2546A087924CDAA4A566A5AF0C78 /* Rorschach-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Rorschach";
+			sourceTree = "<group>";
+		};
+		7525ADA7B1F8CAA16A53D3FD4C86681B /* Pods-Rorschach_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5924A0AD3C24B8CA4EF02ABBF0F53593 /* Pods-Rorschach_Tests.modulemap */,
+				C848A09AD6874DC02951DA9224A5BB73 /* Pods-Rorschach_Tests-acknowledgements.markdown */,
+				D6C3DFEBF061815D8534E303EAA503EC /* Pods-Rorschach_Tests-acknowledgements.plist */,
+				B3F44DDDC98D5C801DC59E5D48FC3067 /* Pods-Rorschach_Tests-dummy.m */,
+				489CD89370D6B5A07088B19645F61D57 /* Pods-Rorschach_Tests-Info.plist */,
+				4208BD5FE953866B7D0E037CC71F46E7 /* Pods-Rorschach_Tests-umbrella.h */,
+				A370C399F2E5793C30F9AEDA1C6E3169 /* Pods-Rorschach_Tests.debug.xcconfig */,
+				3C4197C70BEF5005F7D6C43945B86B8F /* Pods-Rorschach_Tests.release.xcconfig */,
+			);
+			name = "Pods-Rorschach_Tests";
+			path = "Target Support Files/Pods-Rorschach_Tests";
+			sourceTree = "<group>";
+		};
+		78CB09DCC753727CA6F9632F12AB4EB3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25B06EB4C38036218C20641904E7D682 /* Rorschach */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -160,40 +175,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C960B91EF6BED8A3CD76C7A88A6DC6D9 /* Products */ = {
+		A37E8600DBC12F6A44E75E551C8C70F5 /* Pods-Rorschach_Example */ = {
 			isa = PBXGroup;
 			children = (
-				4364710BBCAB0DA48752BCA224B98509 /* Pods_Rorschach_Example.framework */,
-				29A7E83E4FD8A5D291A74CF0AA92FF19 /* Pods_Rorschach_Tests.framework */,
+				58B3AD08D518F93E8439A56ED079FBFB /* Pods-Rorschach_Example.modulemap */,
+				4F52E89C818A3136AFFFA0972D7645DF /* Pods-Rorschach_Example-acknowledgements.markdown */,
+				955927BBD257131B8510A5F278E34480 /* Pods-Rorschach_Example-acknowledgements.plist */,
+				E1D4DD6CDEEE01341CB0C6AC9F3A8C53 /* Pods-Rorschach_Example-dummy.m */,
+				F7A646C43D613701A5841F99CE8AB020 /* Pods-Rorschach_Example-frameworks.sh */,
+				366ED35E0B82E1E53E48BFADE2D8F5D4 /* Pods-Rorschach_Example-Info.plist */,
+				A4E3813C5795C554F684A77C28AD6C33 /* Pods-Rorschach_Example-umbrella.h */,
+				BA44982367ED460C444F92AAF77A90ED /* Pods-Rorschach_Example.debug.xcconfig */,
+				30B933BBB1CF545DF5C398E099AC37F0 /* Pods-Rorschach_Example.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CE917EFBE92D6B5209C93BDBBBE82DDB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				31FBA3ED62A45EBA59BF03A69C1A8EEB /* Rorschach */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CF07B61823775A930AFF1F4FF84F52A7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D53543993F389476659D826AC4C293ED /* Rorschach.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Rorschach";
+			name = "Pods-Rorschach_Example";
+			path = "Target Support Files/Pods-Rorschach_Example";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CE917EFBE92D6B5209C93BDBBBE82DDB /* Development Pods */,
+				78CB09DCC753727CA6F9632F12AB4EB3 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C960B91EF6BED8A3CD76C7A88A6DC6D9 /* Products */,
-				0B3C8AB4697960D0DCA8398CBDFAB69E /* Targets Support Files */,
+				DE11F370E38874AE4DE3A5B8C4EDB174 /* Products */,
+				1DBFB1AEB67259C13F2CF9F368C4EA7D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,9 +211,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DE11F370E38874AE4DE3A5B8C4EDB174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B8BAC103006D8C1E8081686BA1B29CD /* Pods_Rorschach_Example.framework */,
+				35F8B7B5D11095F1D1988482FCE35C3F /* Pods_Rorschach_Tests.framework */,
+				35C5641DE354D2ED0C7391522BC8B2B0 /* Rorschach.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		228D61BBD2AFEA32AC418946E765BCE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C104AE7ADA84238670B20CF2A7F288 /* Rorschach-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2C0AD90F86F127E214F2DCD8BC9584B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,6 +251,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3B3055CA86DB45F366C2E9C35B8D2EA0 /* Rorschach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55919A912B19E947082CD64E8498ED87 /* Build configuration list for PBXNativeTarget "Rorschach" */;
+			buildPhases = (
+				228D61BBD2AFEA32AC418946E765BCE0 /* Headers */,
+				24461BACB2DEABAC6E582F7EB69BEDFF /* Sources */,
+				89FB265AF8EF0D4DC0AA83E6CAC7DA51 /* Frameworks */,
+				6D020F3CED5F388F4FF3EF09C9E27BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rorschach;
+			productName = Rorschach;
+			productReference = 35C5641DE354D2ED0C7391522BC8B2B0 /* Rorschach.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		951FD2659741051C835890D62D177CD8 /* Pods-Rorschach_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41297069E8B232F37BFA7F3C1B7E6D5A /* Build configuration list for PBXNativeTarget "Pods-Rorschach_Tests" */;
@@ -243,7 +285,7 @@
 			);
 			name = "Pods-Rorschach_Tests";
 			productName = "Pods-Rorschach_Tests";
-			productReference = 29A7E83E4FD8A5D291A74CF0AA92FF19 /* Pods_Rorschach_Tests.framework */;
+			productReference = 35F8B7B5D11095F1D1988482FCE35C3F /* Pods_Rorschach_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		98CA3F3B20E311867ABA790CEEAA1A85 /* Pods-Rorschach_Example */ = {
@@ -262,7 +304,7 @@
 			);
 			name = "Pods-Rorschach_Example";
 			productName = "Pods-Rorschach_Example";
-			productReference = 4364710BBCAB0DA48752BCA224B98509 /* Pods_Rorschach_Example.framework */;
+			productReference = 9B8BAC103006D8C1E8081686BA1B29CD /* Pods_Rorschach_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -282,7 +324,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C960B91EF6BED8A3CD76C7A88A6DC6D9 /* Products */;
+			productRefGroup = DE11F370E38874AE4DE3A5B8C4EDB174 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -294,6 +336,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6D020F3CED5F388F4FF3EF09C9E27BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99D89A54A754448E37C908DD4BE1AAAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,6 +360,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		24461BACB2DEABAC6E582F7EB69BEDFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE71633784CF16523BF7E218A33DA4CE /* OptionalExt.swift in Sources */,
+				C35416749094E042BD89C78193B04341 /* Rorschach-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2693B7292FC8C6F255A08A5F50ABCA53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,7 +405,7 @@
 /* Begin XCBuildConfiguration section */
 		07C110C77CB3CE9694B4429CF05182F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC8301EDBD4CFF193314D0DC98069F6A /* Pods-Rorschach_Example.debug.xcconfig */;
+			baseConfigurationReference = BA44982367ED460C444F92AAF77A90ED /* Pods-Rorschach_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -380,7 +438,7 @@
 		};
 		107E29F15742A4BD0BCC64E00D210FD2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACEF687C8355B6F78108F7E52A45C9EC /* Pods-Rorschach_Tests.release.xcconfig */;
+			baseConfigurationReference = 3C4197C70BEF5005F7D6C43945B86B8F /* Pods-Rorschach_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -412,30 +470,66 @@
 			};
 			name = Release;
 		};
-		2C89DF328E7E6A31AD5D748702BA285B /* Debug */ = {
+		2FC6A21D40DE86BEC180FEC6545B8199 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D53543993F389476659D826AC4C293ED /* Rorschach.xcconfig */;
+			baseConfigurationReference = BF7A43AAF40F7FBE9DC693EEA725BCCA /* Rorschach.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Rorschach/Rorschach-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rorschach/Rorschach-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rorschach/Rorschach.modulemap";
+				PRODUCT_MODULE_NAME = Rorschach;
+				PRODUCT_NAME = Rorschach;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		43EEDA2E7CCE3D0014D45BF2A5515926 /* Release */ = {
+		989E993A2F6B596D5A88237E90722A87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D53543993F389476659D826AC4C293ED /* Rorschach.xcconfig */;
+			baseConfigurationReference = BF7A43AAF40F7FBE9DC693EEA725BCCA /* Rorschach.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Rorschach/Rorschach-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rorschach/Rorschach-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rorschach/Rorschach.modulemap";
+				PRODUCT_MODULE_NAME = Rorschach;
+				PRODUCT_NAME = Rorschach;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -505,7 +599,7 @@
 		};
 		C550CA7D3FB10261A8FCFD42AB7C89C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAC548108670A6F4E5FEE8891E84FD65 /* Pods-Rorschach_Example.release.xcconfig */;
+			baseConfigurationReference = 30B933BBB1CF545DF5C398E099AC37F0 /* Pods-Rorschach_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -539,7 +633,7 @@
 		};
 		CE644FAA1DA72B564D80825CC7A9F5E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52DEE81BF6ABAB2FC891F06E8A15F038 /* Pods-Rorschach_Tests.debug.xcconfig */;
+			baseConfigurationReference = A370C399F2E5793C30F9AEDA1C6E3169 /* Pods-Rorschach_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -651,11 +745,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55919A912B19E947082CD64E8498ED87 /* Build configuration list for PBXAggregateTarget "Rorschach" */ = {
+		55919A912B19E947082CD64E8498ED87 /* Build configuration list for PBXNativeTarget "Rorschach" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C89DF328E7E6A31AD5D748702BA285B /* Debug */,
-				43EEDA2E7CCE3D0014D45BF2A5515926 /* Release */,
+				2FC6A21D40DE86BEC180FEC6545B8199 /* Debug */,
+				989E993A2F6B596D5A88237E90722A87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
